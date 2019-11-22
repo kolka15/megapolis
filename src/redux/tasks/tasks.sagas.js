@@ -2,11 +2,12 @@ import {takeLatest, call, all, put} from 'redux-saga/effects';
 import fetch from 'isomorphic-unfetch';
 import {tasksActionTypes} from '../tasks/tasks.types';
 import {fetchTasksSuccess, fetchTasksFailure, addTaskSuccess, addTaskFailure} from '../tasks/tasks.actions';
+import {server} from '../../utils/server';
 
 
 export function* fetchTasksAsync() {
     try {
-        const response = yield fetch('/api/list');
+        const response = yield fetch(`${server}/api/list`);
         const data = yield response.json();
         console.log (
             'data ', data ,
@@ -26,7 +27,7 @@ export function* fetchTasksStart() {
 export function* addTaskAsync({task}) {
 
     try {
-        const response = yield fetch('/api/list');
+        const response = yield fetch('${server}/api/list');
         const data = yield response.json();
         console.log (
             'data ', data ,

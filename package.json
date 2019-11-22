@@ -54,7 +54,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://test.megapolis-it.ru",
   "devDependencies": {
     "eslint": "^6.6.0"
   }
