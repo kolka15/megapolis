@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/megapolis/static/css/main.e4219c44.chunk.css",
-    "main.js": "/megapolis/static/js/main.b5a82775.chunk.js",
-    "main.js.map": "/megapolis/static/js/main.b5a82775.chunk.js.map",
+    "main.css": "/megapolis/static/css/main.89ecfc4e.chunk.css",
+    "main.js": "/megapolis/static/js/main.a4d6627f.chunk.js",
+    "main.js.map": "/megapolis/static/js/main.a4d6627f.chunk.js.map",
     "runtime-main.js": "/megapolis/static/js/runtime-main.1e0d877c.js",
     "runtime-main.js.map": "/megapolis/static/js/runtime-main.1e0d877c.js.map",
-    "static/js/2.3620bf2e.chunk.js": "/megapolis/static/js/2.3620bf2e.chunk.js",
-    "static/js/2.3620bf2e.chunk.js.map": "/megapolis/static/js/2.3620bf2e.chunk.js.map",
+    "static/js/2.6e42a884.chunk.js": "/megapolis/static/js/2.6e42a884.chunk.js",
+    "static/js/2.6e42a884.chunk.js.map": "/megapolis/static/js/2.6e42a884.chunk.js.map",
     "index.html": "/megapolis/index.html",
-    "precache-manifest.36450adc858d38de91b28869b41cfa8f.js": "/megapolis/precache-manifest.36450adc858d38de91b28869b41cfa8f.js",
+    "precache-manifest.911f384cfa207ca74e076b957f6ea7b8.js": "/megapolis/precache-manifest.911f384cfa207ca74e076b957f6ea7b8.js",
     "service-worker.js": "/megapolis/service-worker.js",
-    "static/css/main.e4219c44.chunk.css.map": "/megapolis/static/css/main.e4219c44.chunk.css.map",
+    "static/css/main.89ecfc4e.chunk.css.map": "/megapolis/static/css/main.89ecfc4e.chunk.css.map",
     "static/media/spinner-dark.svg": "/megapolis/static/media/spinner-dark.b9a0116b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1e0d877c.js",
-    "static/js/2.3620bf2e.chunk.js",
-    "static/css/main.e4219c44.chunk.css",
-    "static/js/main.b5a82775.chunk.js"
+    "static/js/2.6e42a884.chunk.js",
+    "static/css/main.89ecfc4e.chunk.css",
+    "static/js/main.a4d6627f.chunk.js"
   ]
 }
