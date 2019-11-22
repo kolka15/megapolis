@@ -3,32 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://kolka15.github.io/megapolis/",
-  "dependencies": {
-    "eslint": "^6.6.0",
-    "eslint-plugin-react": "^7.16.0",
-    "gh-pages": "^2.1.1",
-    "husky": "^3.1.0",
-    "lint-staged": "^9.4.3",
-    "node-sass": "^4.13.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --git git"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "deploy": "gh-pages -d build --git git",
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "lint:fix": "npm run lint -- --fix"
   },
   "lint-staged": {
     "./**/*.js": [
-      "npm run lint:fix",
+      "eslint --fix",
       "git add"
     ]
   },
@@ -36,6 +23,18 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-plugin-react": "^7.16.0",
+    "gh-pages": "^2.1.1",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.4.2",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0"
   },
   "browserslist": {
     "production": [
@@ -49,5 +48,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://test.megapolis-it.ru"
+  "proxy": "https://test.megapolis-it.ru",
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
 }
