@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Switch, Route} from 'react-router-dom';
+import Footer from './components/Footer/Footer';
+import Homepage from './pages/Homepage/Homepage';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className='site' >
+            <div className='content'>
+                <Switch>
+                    <Route exact path='/' component={Homepage}/>
+                </Switch>
+                {/* <Switch>
+                <Route exact path='/' component={HomePage}/>
+                <Route path='/shop' component={ShopPage}/>
+                <Route exact path='/checkout' component={CheckoutPage}/>
+                <Route exact path='/sign-in'
+                       render={() => (currentUser ? <Redirect to='/'/> : <SignInAndSignUpPage/>)}
+                />
+            </Switch>*/}
+
+            </div>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

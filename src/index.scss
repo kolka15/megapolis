@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  line-height: 1.2;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  background: #fff;
+  margin: auto;
+  width: 992px;
+  padding: 40px 60px;
+
+}
+
+.section-wrapper {
+  max-width: 992px;
+  margin: 0 auto;
+}
