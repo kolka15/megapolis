@@ -24,15 +24,22 @@ export function* fetchTasksStart() {
 }
 
 
-export function* addTaskAsync({task}) {
-
+export function* addTaskAsync({payload}) {
     try {
-        const response = yield fetch('${server}/api/list');
+        const response = yield fetch(`${server}/api/list`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
+        });
         const data = yield response.json();
         console.log (
             'data ', data ,
         );
         yield put(addTaskSuccess(data.data));
+
+        yield fetchTasksAsync();
 
     } catch (error) {
         yield put(addTaskFailure(error.message));

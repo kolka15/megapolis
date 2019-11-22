@@ -22,7 +22,7 @@ const Modal = ({setModalVisibility, children}) => {
         <div className='modal' onClick={() => setModalVisibility(false)}>
             <div className='modal__content' onClick={e => e.stopPropagation()}>
                 <span className='modal__close' onClick={() => setModalVisibility(false)}>
-                    <Cross/>
+                    <Cross color='#ff0000'/>
                 </span>
                 {children}
             </div>
