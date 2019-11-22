@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb1f69a3bd7d37d6f4e231582af29ced",
+    "revision": "5636849cb0a266b3a938fb03162e2839",
     "url": "/megapolis/index.html"
   },
   {
-    "revision": "81700130a19a8e9509b7",
-    "url": "/megapolis/static/css/main.edb659cb.chunk.css"
+    "revision": "d6761a8c9ef41b5bb821",
+    "url": "/megapolis/static/css/main.e4219c44.chunk.css"
   },
   {
-    "revision": "ab5e98746b0c2765e3ef",
-    "url": "/megapolis/static/js/2.fdfdfaa6.chunk.js"
+    "revision": "8260c26c2e85f59438f1",
+    "url": "/megapolis/static/js/2.3620bf2e.chunk.js"
   },
   {
-    "revision": "81700130a19a8e9509b7",
-    "url": "/megapolis/static/js/main.90ec2e1e.chunk.js"
+    "revision": "d6761a8c9ef41b5bb821",
+    "url": "/megapolis/static/js/main.b5a82775.chunk.js"
   },
   {
     "revision": "0943272118f9b042adec",
