@@ -1,3 +1,64 @@
 .button {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  background: transparent;
+  color: #000;
+  padding-left: 45px;
+  padding-right: 45px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  outline: none;
+
+  &_green {
+    border: 1px solid #39b54a;
+    background: #fff;
+    color: #000;
+    transition: all .2s;
+
+    &:hover {
+      background-color: lighten(#39b54a, 50);
+    }
+
+    &:active {
+      color: #fff;
+      background-color: #39b54a;
+    }
+  }
+  &_red {
+    border: 1px solid #ff0000;
+    background: #fff;
+    color: #000;
+    transition: all .2s;
+
+    &:hover {
+      background-color: lighten(#ff0000, 48);
+    }
+
+    &:active {
+      color: #fff;
+      background-color: #ff0000;
+    }
+  }
+  &_blue {
+    border: 1px solid #0071bc;
+    background: #fff;
+    color: #000;
+    transition: all .2s;
+
+    &:hover {
+      background-color: lighten(#0071bc, 60);
+    }
+
+    &:active {
+      color: #fff;
+      background-color: #0071bc;
+    }
+  }
+
 
 }
+
