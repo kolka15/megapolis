@@ -8,7 +8,9 @@ const Modal = ({setModalVisibility, children}) => {
 
     useEffect(() => {
         const body = document.body;
-        body.style.paddingRight = getScrollbarWidth() + 'px';
+        if (window.innerWidth > document.documentElement.clientWidth) {
+            body.style.paddingRight = getScrollbarWidth() + 'px';
+        }
         body.style.overflow = 'hidden';
     }, []);
 
