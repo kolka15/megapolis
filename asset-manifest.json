@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/megapolis/static/css/main.0974a452.chunk.css",
-    "main.js": "/megapolis/static/js/main.babe22f8.chunk.js",
-    "main.js.map": "/megapolis/static/js/main.babe22f8.chunk.js.map",
+    "main.js": "/megapolis/static/js/main.f1e19144.chunk.js",
+    "main.js.map": "/megapolis/static/js/main.f1e19144.chunk.js.map",
     "runtime-main.js": "/megapolis/static/js/runtime-main.1e0d877c.js",
     "runtime-main.js.map": "/megapolis/static/js/runtime-main.1e0d877c.js.map",
     "static/js/2.73d88d84.chunk.js": "/megapolis/static/js/2.73d88d84.chunk.js",
     "static/js/2.73d88d84.chunk.js.map": "/megapolis/static/js/2.73d88d84.chunk.js.map",
     "index.html": "/megapolis/index.html",
-    "precache-manifest.9ed9011cf7668525fff6eb3c4c210485.js": "/megapolis/precache-manifest.9ed9011cf7668525fff6eb3c4c210485.js",
+    "precache-manifest.608dd520fecba4ea1fa421cad6f00f8c.js": "/megapolis/precache-manifest.608dd520fecba4ea1fa421cad6f00f8c.js",
     "service-worker.js": "/megapolis/service-worker.js",
     "static/css/main.0974a452.chunk.css.map": "/megapolis/static/css/main.0974a452.chunk.css.map",
     "static/media/spinner-dark.svg": "/megapolis/static/media/spinner-dark.b9a0116b.svg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1e0d877c.js",
     "static/js/2.73d88d84.chunk.js",
     "static/css/main.0974a452.chunk.css",
-    "static/js/main.babe22f8.chunk.js"
+    "static/js/main.f1e19144.chunk.js"
   ]
 }
