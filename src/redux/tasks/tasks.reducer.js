@@ -9,7 +9,7 @@ const INITIAL_STATE = {
 const tasksReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
     case tasksActionTypes.FETCH_TASKS_START:
-        return {...state, isFetching: true};
+        return {...state, isFetching: true, currentId: action.payload};
     case tasksActionTypes.FETCH_TASKS_SUCCESS:
         return {
             ...state,
@@ -17,7 +17,7 @@ const tasksReducer = (state = INITIAL_STATE, action) => {
             isFetching: false
         };
     case tasksActionTypes.ADD_TASK_START:
-        return {...state, isFetching: true};
+        return {...state};
     case tasksActionTypes.ADD_TASK_SUCCESS:
         return {...state, isFetching: false};
 

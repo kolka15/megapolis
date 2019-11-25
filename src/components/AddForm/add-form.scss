@@ -13,4 +13,10 @@
     border: none;
     width: 100%;
   }
+  &__error {
+    color: #ff0000;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 5px);
+  }
 }

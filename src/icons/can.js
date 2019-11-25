@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const Can = ({color}) => {
+export const Can = ({className}) => {
     return (
-        <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="17.824" height="22"
+        <svg className={className} version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="17.824" height="22"
             xmlSpace="preserve">
-            <style>{`.st0{fill: ${color}`}</style>
+            <style></style>
             <path className="st0"
                 d="M7.042 7.265c-.276 0-.5.224-.5.5v10.353c0 .276.224.5.5.5s.5-.224.5-.5V7.765c0-.277-.224-.5-.5-.5zM10.854 7.265c-.276 0-.5.224-.5.5v10.353c0 .276.224.5.5.5s.5-.224.5-.5V7.765c0-.277-.224-.5-.5-.5z"/>
             <path className="st0"

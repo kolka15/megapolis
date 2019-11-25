@@ -1,15 +1,39 @@
 .task-table {
   border-collapse: collapse;
   width: 100%;
+
   td {
     border: 1px solid #e6e6e6;
-    padding: 15px 20px;
+    padding: 10px 20px;
   }
+
   &__id {
     width: 185px;
 
   }
+
   &__title {
     width: 870px;
   }
+
+  &__actions-cell {
+    white-space: nowrap;
+  }
+
+
+  &__edit {
+    cursor: pointer;
+    fill: #666666;
+    margin: 0 4px;
+    padding: 3px 4px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all .2s;
+
+    &:hover {
+      fill: #fff;
+      background: #666666;
+    }
+  }
 }
+

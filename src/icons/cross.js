@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Cross = ({color}) => {
+const Cross = ({className}) => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+        <svg className={className} xmlns="http://www.w3.org/2000/svg" width="15" height="15">
             <path
-                fill={color}
                 d="M8.207 7.5L14.853.854c.195-.195.195-.512 0-.707s-.512-.195-.707 0L7.5 6.793.854.146C.659-.049.342-.049.147.146s-.195.512 0 .707L6.793 7.5.147 14.146a.5003.5003 0 000 .707c.097.098.225.147.353.147s.256-.049.354-.146L7.5 8.207l6.646 6.646c.098.098.226.147.354.147s.256-.049.354-.146a.5003.5003 0 000-.707L8.207 7.5z"
             />
         </svg>
